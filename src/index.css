@@ -64,7 +64,7 @@ body {
         @apply w-full overflow-x-hidden;
     }
 
-    nav {
+    .site-nav {
         @apply fixed z-50 w-full;
 
         div {
@@ -276,6 +276,10 @@ body {
 
     #menu {
         @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
+
+        > h2 {
+            @apply text-center font-modern-negra text-5xl md:text-7xl text-yellow mb-12 relative z-10;
+        }
 
         #m-left-leaf {
             @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
