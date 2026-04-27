@@ -1,5 +1,5 @@
 import React from 'react'
-import { navLinks } from '../../constants'
+import { navLinks } from '../../constants/index.js'
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger } from 'gsap/all'
 import gsap from 'gsap'
